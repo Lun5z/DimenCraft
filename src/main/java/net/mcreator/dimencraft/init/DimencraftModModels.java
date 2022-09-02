@@ -11,12 +11,14 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.dimencraft.client.model.Modelhumanoid;
 import net.mcreator.dimencraft.client.model.Modelearthboss;
+import net.mcreator.dimencraft.client.model.Modelcustom_model;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class DimencraftModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelhumanoid.LAYER_LOCATION, Modelhumanoid::createBodyLayer);
+		event.registerLayerDefinition(Modelcustom_model.LAYER_LOCATION, Modelcustom_model::createBodyLayer);
 		event.registerLayerDefinition(Modelearthboss.LAYER_LOCATION, Modelearthboss::createBodyLayer);
 	}
 }

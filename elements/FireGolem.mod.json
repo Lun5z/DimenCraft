@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Fire Golem",
     "mobLabel": "",
-    "mobModelName": "Modelfiregolem",
-    "mobModelTexture": "iron_golem1.png",
+    "mobModelName": "Modelcustom_model",
+    "mobModelTexture": "texture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.8,
     "modelHeight": 2.6999999999999997,
