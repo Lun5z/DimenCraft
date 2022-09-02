@@ -15,6 +15,6 @@ public class GlitchedEntityRenderer extends MobRenderer<GlitchedEntityEntity, Mo
 
 	@Override
 	public ResourceLocation getTextureLocation(GlitchedEntityEntity entity) {
-		return new ResourceLocation("dimencraft:textures/steve.png");
+		return new ResourceLocation("dimencraft:textures/entities/steve.png");
 	}
 }

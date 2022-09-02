@@ -184,6 +184,7 @@ public class GlitchedEntityEntity extends Zombie {
 		builder = builder.add(Attributes.MAX_HEALTH, 420);
 		builder = builder.add(Attributes.ARMOR, 0.9);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 125);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 1.2000000000000002);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 1.4000000000000001);
 		builder = builder.add(Attributes.FLYING_SPEED, 0.4);

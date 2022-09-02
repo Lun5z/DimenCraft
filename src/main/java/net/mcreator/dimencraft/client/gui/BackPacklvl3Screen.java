@@ -33,7 +33,7 @@ public class BackPacklvl3Screen extends AbstractContainerScreen<BackPacklvl3Menu
 		this.imageHeight = 185;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("dimencraft:textures/back_packlvl_3.png");
+	private static final ResourceLocation texture = new ResourceLocation("dimencraft:textures/screens/back_packlvl_3.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
