@@ -32,11 +32,6 @@ public class HealStickItem extends Item {
 	}
 
 	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 0;
-	}
-
-	@Override
 	public boolean isCorrectToolForDrops(BlockState state) {
 		return true;
 	}

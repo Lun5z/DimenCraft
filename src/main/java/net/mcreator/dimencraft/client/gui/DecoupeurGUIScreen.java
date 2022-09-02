@@ -33,7 +33,7 @@ public class DecoupeurGUIScreen extends AbstractContainerScreen<DecoupeurGUIMenu
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("dimencraft:textures/decoupeur_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("dimencraft:textures/screens/decoupeur_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {

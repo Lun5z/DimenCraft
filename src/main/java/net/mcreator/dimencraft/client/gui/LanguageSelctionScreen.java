@@ -37,7 +37,7 @@ public class LanguageSelctionScreen extends AbstractContainerScreen<LanguageSelc
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("dimencraft:textures/language_selction.png");
+	private static final ResourceLocation texture = new ResourceLocation("dimencraft:textures/screens/language_selction.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {

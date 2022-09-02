@@ -2,7 +2,6 @@
 package net.mcreator.dimencraft.item;
 
 import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -16,11 +15,6 @@ import com.google.common.collect.ImmutableMultimap;
 public class KnifeItem extends Item {
 	public KnifeItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(69).rarity(Rarity.COMMON));
-	}
-
-	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 0;
 	}
 
 	@Override

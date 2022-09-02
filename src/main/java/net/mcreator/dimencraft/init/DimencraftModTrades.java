@@ -11,25 +11,19 @@ import net.minecraftforge.common.BasicItemListing;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.entity.npc.VillagerProfession;
-
-import java.util.List;
-
-import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class DimencraftModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
-		Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
 		if (event.getType() == VillagerProfession.FARMER) {
-			trades.get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD),
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD),
 
 					new ItemStack(DimencraftModItems.TOMATE.get(), 2), 10, 5, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.FARMER) {
-			trades.get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2),
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2),
 
 					new ItemStack(DimencraftModItems.CHEESE.get()), 10, 5, 0.05f));
 		}

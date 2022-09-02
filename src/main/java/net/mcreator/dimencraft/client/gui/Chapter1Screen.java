@@ -33,7 +33,7 @@ public class Chapter1Screen extends AbstractContainerScreen<Chapter1Menu> {
 		this.imageHeight = 177;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("dimencraft:textures/chapter_1eng.png");
+	private static final ResourceLocation texture = new ResourceLocation("dimencraft:textures/screens/chapter_1eng.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
