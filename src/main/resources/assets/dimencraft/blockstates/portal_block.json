@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dimencraft:block/portal_block"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "gh",
+    "enableBody": true,
+    "textureBody": "fg",
+    "enableLeggings": true,
+    "textureLeggings": "hjk",
+    "enableBoots": true,
+    "textureBoots": "d",
+    "onBodyTick": {
+      "name": "RubyArmorBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DimenBlock"
+    },
+    "armorTextureFile": "netherit1_",
+    "helmetName": "Ruby Armor Helmet",
+    "bodyName": "Ruby Armor Body",
+    "leggingsName": "Ruby Armor Leggings",
+    "bootsName": "Ruby Armor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 40,
+    "damageValueHelmet": 7,
+    "damageValueBody": 10,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 5,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_diamond"
+    },
+    "repairItems": []
+  }
+}

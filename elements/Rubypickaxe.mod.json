@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "p",
+    "customModelName": "Normal",
+    "name": "Ruby Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DimenBlock"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 12,
+    "efficiency": 20.0,
+    "attackSpeed": 1.75,
+    "enchantability": 30,
+    "damageVsEntity": 8.0,
+    "usageCount": 4200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

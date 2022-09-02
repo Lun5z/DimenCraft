@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_log",
+        "1": "gold_block",
+        "2": "stone",
+        "3": "diamond_block"
+      },
+      "name": "default"
+    }
+  }
+}

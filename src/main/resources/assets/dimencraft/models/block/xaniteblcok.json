@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dimencraft:blocks/xanite_block",
+    "up": "dimencraft:blocks/xanite_block",
+    "north": "dimencraft:blocks/xanite_block",
+    "east": "dimencraft:blocks/xanite_block",
+    "south": "dimencraft:blocks/xanite_block",
+    "west": "dimencraft:blocks/xanite_block",
+    "particle": "dimencraft:blocks/xanite_block"
+  }
+}

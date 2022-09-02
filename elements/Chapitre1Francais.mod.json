@@ -1,0 +1,126 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 284,
+    "height": 103,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Bienvenue dans mon histoire mon nom est Steve,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Bienvenue dans mon histoire mon nom est Steve,",
+          "x": 76,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tout a commencer quand j'ai decouvert la dimension",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Tout a commencer quand j'ai decouvert la dimension",
+          "x": 76,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "de Feu, il y faisait tres chaud, j'y ai aussi ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "de Feu, il y faisait tres chaud, j'y ai aussi ",
+          "x": 77,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "decouvert un nouveau minerais, le lingot de Feu.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "decouvert un nouveau minerais, le lingot de Feu.",
+          "x": 77,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A l'origine je travaillais dans les mines, j'y ai ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "A l'origine je travaillais dans les mines, j'y ai ",
+          "x": 78,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "decouvert un minerais permettant de crée des ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "decouvert un minerais permettant de crée des ",
+          "x": 76,
+          "y": 144
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "portails",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "portails",
+          "x": 307,
+          "y": 144
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "j'ai decouvert 10 dimensions...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "j'ai decouvert 10 dimensions...",
+          "x": 76,
+          "y": 155
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

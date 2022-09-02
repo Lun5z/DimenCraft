@@ -1,0 +1,11 @@
+{
+  "parent": "dimencraft:custom/de",
+  "textures": {
+    "all": "dimencraft:blocks/spruce_planks",
+    "particle": "dimencraft:blocks/spruce_planks",
+    "0": "dimencraft:blocks/dark_oak_log",
+    "1": "dimencraft:blocks/spruce_planks",
+    "2": "dimencraft:blocks/oak_planks",
+    "3": "dimencraft:blocks/chiseled_stone_bricks"
+  }
+}

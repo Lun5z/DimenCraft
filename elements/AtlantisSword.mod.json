@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "atlantissword",
+    "customModelName": "Normal",
+    "name": "Atlantis Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DimenBlock"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 13.5,
+    "attackSpeed": 6.5,
+    "enchantability": 7,
+    "damageVsEntity": 16.5,
+    "usageCount": 3021,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AtlantisIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

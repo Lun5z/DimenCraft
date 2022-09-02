@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cobblestone1",
+        "3": "pasted",
+        "4": "blackstone",
+        "5": "blackstoe",
+        "6": "cobblestone"
+      },
+      "name": "default"
+    }
+  }
+}

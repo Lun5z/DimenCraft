@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "dimencraft:dimens_ore"
+  },
+  "result": "dimencraft:dimens_ingot"
+}

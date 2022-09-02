@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "dimencraft:portal_block",
+    "dimencraft:dimens_ore",
+    "dimencraft:xanite_ore",
+    "dimencraft:ruby_ore",
+    "dimencraft:ruby_block"
+  ]
+}

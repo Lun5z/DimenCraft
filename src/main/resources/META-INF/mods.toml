@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="DimenSquad | Tout droit réservé"
+
+[[mods]]
+modId="dimencraft"
+version="0.0.2"
+displayName="DimenCraft V0.0.2 [Bêta]"
+credits="Crée grace a notre équipe !"
+displayURL="https://dimencraft.jimdosite.com/"
+authors="DimenSquad"
+description='''
+Un mod rajoutant des dimensions, des items, des bosses et des Donjons
+'''
+
+[[dependencies.dimencraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

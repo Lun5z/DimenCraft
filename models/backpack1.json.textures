@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "light_gray_concrete",
+        "3": "gold_block_1",
+        "4": "brown_concrete",
+        "5": "cyan_concrete",
+        "8": "light_gray_wool",
+        "9": "unknown_1"
+      },
+      "name": "default"
+    }
+  }
+}

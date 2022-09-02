@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dimencraft:blocks/ruby_ore_1",
+    "up": "dimencraft:blocks/ruby_ore_1",
+    "north": "dimencraft:blocks/ruby_ore_1",
+    "east": "dimencraft:blocks/ruby_ore_1",
+    "south": "dimencraft:blocks/ruby_ore_1",
+    "west": "dimencraft:blocks/ruby_ore_1",
+    "particle": "dimencraft:blocks/ruby_ore_1"
+  }
+}

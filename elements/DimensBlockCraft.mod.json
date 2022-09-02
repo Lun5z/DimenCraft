@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DimensIngot"
+      },
+      {
+        "value": "CUSTOM:DimensIngot"
+      },
+      {
+        "value": "CUSTOM:DimensIngot"
+      },
+      {
+        "value": "CUSTOM:DimensIngot"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:DimensIngot"
+      },
+      {
+        "value": "CUSTOM:DimensIngot"
+      },
+      {
+        "value": "CUSTOM:DimensIngot"
+      },
+      {
+        "value": "CUSTOM:DimensIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DimensBlock"
+    },
+    "name": "dimens_block_craft",
+    "namespace": "mod"
+  }
+}

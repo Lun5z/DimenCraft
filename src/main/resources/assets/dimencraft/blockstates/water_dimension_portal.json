@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dimencraft:block/water_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "dimencraft:block/water_dimension_portal_ns"
+    }
+  }
+}

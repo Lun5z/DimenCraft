@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dimencraft:blocks/minerai_de_paladium",
+    "up": "dimencraft:blocks/minerai_de_paladium",
+    "north": "dimencraft:blocks/minerai_de_paladium",
+    "east": "dimencraft:blocks/minerai_de_paladium",
+    "south": "dimencraft:blocks/minerai_de_paladium",
+    "west": "dimencraft:blocks/minerai_de_paladium",
+    "particle": "dimencraft:blocks/minerai_de_paladium"
+  }
+}

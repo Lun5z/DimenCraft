@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dimencraft:block/glitched_dimension_portal_portal_ew"
+    },
+    "axis=x": {
+      "model": "dimencraft:block/glitched_dimension_portal_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crafting_table"
+    },
+    "1": {
+      "item": "dimencraft:back_pack_level_2"
+    },
+    "2": {
+      "item": "dimencraft:back_pack_upgrader"
+    }
+  },
+  "result": {
+    "item": "dimencraft:back_pack_level_3",
+    "count": 1
+  }
+}

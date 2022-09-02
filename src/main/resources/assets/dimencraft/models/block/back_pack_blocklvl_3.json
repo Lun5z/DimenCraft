@@ -1,0 +1,13 @@
+{
+  "parent": "dimencraft:custom/backpack1",
+  "textures": {
+    "all": "dimencraft:blocks/cyan_concrete",
+    "particle": "dimencraft:blocks/cyan_concrete",
+    "2": "dimencraft:blocks/light_gray_concrete",
+    "3": "dimencraft:blocks/gold_block_1",
+    "4": "dimencraft:blocks/brown_concrete",
+    "5": "dimencraft:blocks/cyan_concrete",
+    "8": "dimencraft:blocks/light_gray_wool",
+    "9": "dimencraft:blocks/unknown_1"
+  }
+}

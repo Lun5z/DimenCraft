@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dimencraft:dimens_ingot"
+    },
+    "1": {
+      "item": "dimencraft:dimens_ingot"
+    },
+    "2": {
+      "item": "dimencraft:dimens_ingot"
+    },
+    "3": {
+      "item": "dimencraft:dimens_ingot"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "dimencraft:dimens_ingot"
+    },
+    "6": {
+      "item": "dimencraft:dimens_ingot"
+    },
+    "7": {
+      "item": "dimencraft:dimens_ingot"
+    },
+    "8": {
+      "item": "dimencraft:dimens_ingot"
+    }
+  },
+  "result": {
+    "item": "dimencraft:portal_block",
+    "count": 2
+  }
+}

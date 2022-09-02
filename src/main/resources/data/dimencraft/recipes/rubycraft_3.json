@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "dimencraft:ruby"
+    },
+    "2": {
+      "item": "dimencraft:ruby"
+    },
+    "3": {
+      "item": "dimencraft:ruby"
+    },
+    "5": {
+      "item": "dimencraft:ruby"
+    }
+  },
+  "result": {
+    "item": "dimencraft:ruby_armor_boots",
+    "count": 1
+  }
+}

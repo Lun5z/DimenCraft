@@ -1,0 +1,10 @@
+{
+  "parent": "dimencraft:custom/adfd016d-1850-41ca-8bdd-08face68075f",
+  "textures": {
+    "0": "dimencraft:blocks/oak_log",
+    "1": "dimencraft:blocks/gold_block",
+    "2": "dimencraft:blocks/stone",
+    "3": "dimencraft:blocks/diamond_block",
+    "particle": "dimencraft:items/unnamed_1"
+  }
+}

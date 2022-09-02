@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "dimencraft:glitched_ingot"
+    },
+    "1": {
+      "item": "dimencraft:fire_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dimencraft:water_dimension",
+    "count": 1
+  }
+}

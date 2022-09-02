@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dimencraft:ruby"
+    },
+    "2": {
+      "item": "dimencraft:ruby"
+    },
+    "3": {
+      "item": "dimencraft:ruby"
+    },
+    "4": {
+      "item": "dimencraft:ruby"
+    },
+    "5": {
+      "item": "dimencraft:ruby"
+    },
+    "6": {
+      "item": "dimencraft:ruby"
+    },
+    "7": {
+      "item": "dimencraft:ruby"
+    },
+    "8": {
+      "item": "dimencraft:ruby"
+    }
+  },
+  "result": {
+    "item": "dimencraft:ruby_armor_chestplate",
+    "count": 1
+  }
+}

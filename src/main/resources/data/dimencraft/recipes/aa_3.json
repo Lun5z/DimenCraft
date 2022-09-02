@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "addition": {
+    "item": "dimencraft:atlantis_ingot"
+  },
+  "result": {
+    "item": "dimencraft:tenu_de_plonger_chestplate"
+  }
+}

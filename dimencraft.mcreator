@@ -1,0 +1,1921 @@
+{
+  "mod_elements": [
+    {
+      "name": "DimenBlock",
+      "type": "tab",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimenmod"
+    },
+    {
+      "name": "DimensBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_block"
+    },
+    {
+      "name": "DimensIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimens_ingot"
+    },
+    {
+      "name": "DimensBlockCraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimens_block_craft"
+    },
+    {
+      "name": "DimensOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimens_ore"
+    },
+    {
+      "name": "Dimensss",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensss"
+    },
+    {
+      "name": "DimensAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimens_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Apple",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple"
+    },
+    {
+      "name": "BackPack",
+      "type": "gui",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_packc"
+    },
+    {
+      "name": "BackPacks",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_packs"
+    },
+    {
+      "name": "Backcraft",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backcraft"
+    },
+    {
+      "name": "HealStickRightClickedInAir",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_stick_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealStick",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_stick"
+    },
+    {
+      "name": "Healcraft",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healcraft"
+    },
+    {
+      "name": "XaniteOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xanite_ore"
+    },
+    {
+      "name": "XaniteIngot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xanite_ingot"
+    },
+    {
+      "name": "Dzdazqdfazzfcs",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dzdazqdfazzfcs"
+    },
+    {
+      "name": "XaniteSliced",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xanite_sliced"
+    },
+    {
+      "name": "Degsbgdfjn",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "degsbgdfjn"
+    },
+    {
+      "name": "BackPackUpgrader",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack_upgrader"
+    },
+    {
+      "name": "Backpacklvl2",
+      "type": "gui",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpacklvl_2"
+    },
+    {
+      "name": "BackPackLevel2",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack_level_2"
+    },
+    {
+      "name": "XaniteSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xanite_sword"
+    },
+    {
+      "name": "Dss",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dss"
+    },
+    {
+      "name": "Vdfdvdvd",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vdfdvdvd"
+    },
+    {
+      "name": "Dqd",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dqd"
+    },
+    {
+      "name": "FireGolem",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_golem"
+    },
+    {
+      "name": "FireDimension",
+      "type": "dimension",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "FireBiome",
+      "type": "biome",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_biome"
+    },
+    {
+      "name": "FireIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot"
+    },
+    {
+      "name": "FireSwordItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_sword_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireSword",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_sword"
+    },
+    {
+      "name": "Fireswordrecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireswordrecipe"
+    },
+    {
+      "name": "Stickfire",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stickfire"
+    },
+    {
+      "name": "XaniteArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xanite_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XaniteArmor",
+      "type": "armor",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xanite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Armor1",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_1"
+    },
+    {
+      "name": "Armor2",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_2"
+    },
+    {
+      "name": "Armor3",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_3"
+    },
+    {
+      "name": "Armor",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block"
+    },
+    {
+      "name": "RubyArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Rubycraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycraft"
+    },
+    {
+      "name": "Eubycraft1",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eubycraft_1"
+    },
+    {
+      "name": "Rubycraft3",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycraft_3"
+    },
+    {
+      "name": "Rubycraft2",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycraft_2"
+    },
+    {
+      "name": "Commandblock",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandblock"
+    },
+    {
+      "name": "Glitchedbiome",
+      "type": "biome",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchedbiome"
+    },
+    {
+      "name": "GlitchedDimensionPortal",
+      "type": "dimension",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitched_dimension_portal",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "GlitchedEntity",
+      "type": "livingentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitched_entity"
+    },
+    {
+      "name": "GlitchedIngot",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitched_ingot"
+    },
+    {
+      "name": "GodmodOnKeyPressed",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godmod_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Godmod",
+      "type": "keybind",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godmod"
+    },
+    {
+      "name": "GodmodoffOnKeyPressed",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godmodoff_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Godmodoff",
+      "type": "keybind",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godmodoff"
+    },
+    {
+      "name": "Firetemple",
+      "type": "structure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firetemple"
+    },
+    {
+      "name": "DecoupeurGUI",
+      "type": "gui",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decoupeur_gui"
+    },
+    {
+      "name": "Decoupeur",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decoupeur"
+    },
+    {
+      "name": "Decoupeurcraft",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decoupeurcraft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DimensApple",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimens_apple"
+    },
+    {
+      "name": "Tomate",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomate"
+    },
+    {
+      "name": "Tomatotrade",
+      "type": "villagertrade",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomatotrade"
+    },
+    {
+      "name": "Knife",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife"
+    },
+    {
+      "name": "TomatoCutted",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomato_cutted"
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese"
+    },
+    {
+      "name": "Fries",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fries"
+    },
+    {
+      "name": "Xanitepickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xanitepickaxe"
+    },
+    {
+      "name": "Xaniteaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xaniteaxe"
+    },
+    {
+      "name": "Xaniteshovel",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xaniteshovel"
+    },
+    {
+      "name": "Rubyaxxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyaxxe"
+    },
+    {
+      "name": "Rubypickaxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubypickaxe"
+    },
+    {
+      "name": "Rubyshovel",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyshovel"
+    },
+    {
+      "name": "Knifecraft",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knifecraft"
+    },
+    {
+      "name": "RubyBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cheesetrade",
+      "type": "villagertrade",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheesetrade"
+    },
+    {
+      "name": "GlitchedBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitched_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchedBlock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitched_block"
+    },
+    {
+      "name": "Axexanit",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axexanit"
+    },
+    {
+      "name": "Xanitepickaxefds",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xanitepickaxefds"
+    },
+    {
+      "name": "Shovelcraft",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovelcraft"
+    },
+    {
+      "name": "Rubyaxe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyaxe"
+    },
+    {
+      "name": "Rubypixkaxe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubypixkaxe"
+    },
+    {
+      "name": "Rubyshovelcraft",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyshovelcraft"
+    },
+    {
+      "name": "Glitchedcraftblock",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchedcraftblock"
+    },
+    {
+      "name": "Ignitiertergs",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignitiertergs"
+    },
+    {
+      "name": "BackPackLevel3",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack_level_3"
+    },
+    {
+      "name": "BackPacklvl3",
+      "type": "gui",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_packlvl_3"
+    },
+    {
+      "name": "BackPacklvl3WhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_packlvl_3_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BackPackBlocklvl3",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack_blocklvl_3"
+    },
+    {
+      "name": "BackPackLevel3RightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack_level_3_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Backpacklvl3sdsdcs",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpacklvl_3sdsdcs"
+    },
+    {
+      "name": "Randommd",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randommd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rpet",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CutterRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutter_recipe"
+    },
+    {
+      "name": "Test1",
+      "type": "achievement",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_1"
+    },
+    {
+      "name": "Test2",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_2"
+    },
+    {
+      "name": "Xaniteblcok",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xaniteblcok"
+    },
+    {
+      "name": "WaterDimension",
+      "type": "dimension",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Waterbiome",
+      "type": "biome",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterbiome"
+    },
+    {
+      "name": "TenuDePlonger",
+      "type": "armor",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenu_de_plonger",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AtlantisSword",
+      "type": "tool",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantis_sword"
+    },
+    {
+      "name": "AtlantisPickaxe",
+      "type": "tool",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantis_pickaxe"
+    },
+    {
+      "name": "AtlantisShovel",
+      "type": "tool",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantis_shovel"
+    },
+    {
+      "name": "AtlantisAxe",
+      "type": "tool",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantis_axe"
+    },
+    {
+      "name": "AtlantisHoe",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantis_hoe"
+    },
+    {
+      "name": "AtlantisIngot",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantis_ingot"
+    },
+    {
+      "name": "TenuDePlongerBodyTickEvent",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenu_de_plonger_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TenuDePlongerLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenu_de_plonger_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheAdventure",
+      "type": "item",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_adventure"
+    },
+    {
+      "name": "Chapter1",
+      "type": "gui",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chapter_1eng"
+    },
+    {
+      "name": "Chapitre1Francais",
+      "type": "gui",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chapitre_1_francais"
+    },
+    {
+      "name": "TheAdventureFrRightclicked",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_adventure_fr_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LanguageSelction",
+      "type": "gui",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "language_selction"
+    },
+    {
+      "name": "Froption",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "froption",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnOption",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "en_option",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AtlantisOre",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantis_ore"
+    },
+    {
+      "name": "Grff",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grff"
+    },
+    {
+      "name": "Memorial",
+      "type": "structure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memorial"
+    },
+    {
+      "name": "Pa",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa"
+    },
+    {
+      "name": "Sa",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sa"
+    },
+    {
+      "name": "Ha",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ha"
+    },
+    {
+      "name": "Sha",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sha"
+    },
+    {
+      "name": "Aa",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa"
+    },
+    {
+      "name": "Aa2",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa_2"
+    },
+    {
+      "name": "Aa3",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa_3"
+    },
+    {
+      "name": "Aa4",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa_4"
+    },
+    {
+      "name": "Aa5",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa_5"
+    },
+    {
+      "name": "Tfrgynhui",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tfrgynhui"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "slot0",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slotOn",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot1",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot1n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot2",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot2n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot3",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot3n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot4",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot4n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot5",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot5n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot6",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot6n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot7",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot7n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot8",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot8n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot9",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot9n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot10",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot10n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot11",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot11n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot12",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot12n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot13",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot13n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slor14",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot14n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot15",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot15n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot16",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot17",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot17n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot16n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot18",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot18n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot19",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot19n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot20",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot20n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot21",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot21n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot22",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot22n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot23",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot23n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot24",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot24n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot25",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot25n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot26",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot26n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot27",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot27n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot28",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot28n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot29",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot29n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot30",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot30n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot31",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot31n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot32",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot32n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot33",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot33n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot34",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot34n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot35",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot35n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "slot36",
+      "type": "itemstack",
+      "scope": "global",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "slot36n",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.dimencraft.water_dimension": "Water Dimension Portal Igniter",
+      "itemGroup.tabdimenmod": "Dimens Mod",
+      "item.dimencraft.xaniteshovel": "Xanite Shovel",
+      "item.dimencraft.back_packs": "Back Pack",
+      "block.dimencraft.ruby_ore": "Ruby Ore",
+      "entity.dimencraft.fire_golem": "Fire Golem",
+      "item.dimencraft.knife": "Knife",
+      "item.dimencraft.ruby_armor_helmet": "Ruby Armor Helmet",
+      "item.dimencraft.tomato_cutted": "Tomato Cutted",
+      "item.dimencraft.atlantis_axe": "Atlantis Axe",
+      "item.dimencraft.tenu_de_plonger_leggings": "Atlantis Leggings",
+      "block.dimencraft.xaniteblcok": "Xaniteblcok",
+      "item.dimencraft.glitched_entity_spawn_egg": "Glitched Entity Spawn Egg",
+      "block.dimencraft.decoupeur": "Cutter",
+      "item.dimencraft.ruby_armor_chestplate": "Ruby Armor Body",
+      "item.dimencraft.xanitepickaxe": "Xania Pickaxe",
+      "item.dimencraft.xanite_armor_chestplate": "Xanite Armor Body",
+      "item.dimencraft.rubypickaxe": "Ruby Pickaxe",
+      "item.dimencraft.back_pack_level_3": "Back Pack Level 3",
+      "item.dimencraft.atlantis_shovel": "Atlantis Shovel",
+      "item.dimencraft.atlantis_hoe": "Atlantis Hoe",
+      "block.dimencraft.atlantis_ore": "Atlantis Ore",
+      "item.dimencraft.back_pack_level_2": "Back Pack Level 2",
+      "item.dimencraft.xaniteaxe": "Xanite Axe",
+      "item.dimencraft.the_adventure": "The Adventure",
+      "item.dimencraft.ruby_armor_leggings": "Ruby Armor Leggings",
+      "item.dimencraft.fries": "Fries",
+      "item.dimencraft.tenu_de_plonger_boots": "Atlantis Boots",
+      "item.dimencraft.glitched_ingot": "Glitched Ingot",
+      "key.dimencraft.godmodoff": "Godmodoff",
+      "item.dimencraft.dimens_ingot": "Dimens Ingot",
+      "item.dimencraft.rubyaxxe": "Ruby Axe",
+      "item.dimencraft.xanite_armor_leggings": "Xanite Armor Leggings",
+      "advancements.test_1.descr": "Welcome in the Fire !",
+      "item.dimencraft.rubyshovel": "Rubyshovel",
+      "item.dimencraft.tenu_de_plonger_chestplate": "Atlantis Body",
+      "item.dimencraft.xanite_sliced": "Xanite Sliced",
+      "advancements.test_2.descr": "This look weird",
+      "biome.dimencraft.waterbiome": "Waterbiome",
+      "item.dimencraft.xanite_ingot": "Xanite Ingot",
+      "item.dimencraft.fire_dimension": "Fire Dimension Portal Igniter",
+      "item.dimencraft.ruby_armor_boots": "Ruby Armor Boots",
+      "item.dimencraft.atlantis_ingot": "Atlantis Ingot",
+      "item.dimencraft.xanite_armor_helmet": "Xanite Armor Helmet",
+      "block.dimencraft.back_pack_blocklvl_3": "Back Pack Blocklvl 3",
+      "item.dimencraft.atlantis_pickaxe": "Atlantis Pickaxe",
+      "item.dimencraft.tomate": "Tomate",
+      "item.dimencraft.fire_sword": "Fire Sword",
+      "block.dimencraft.glitched_block": "Glitched Block",
+      "item.dimencraft.fire_ingot": "Fire Ingot",
+      "item.dimencraft.back_pack_upgrader": "Back Pack Upgrader",
+      "advancements.test_2.title": "Weird",
+      "item.dimencraft.xanite_sword": "Xanite Sword",
+      "item.dimencraft.ruby": "Ruby",
+      "block.dimencraft.ruby_block": "Ruby Block",
+      "item.dimencraft.atlantis_sword": "Atlantis Sword",
+      "biome.dimencraft.fire_biome": "Fire Biome",
+      "item.dimencraft.tenu_de_plonger_helmet": "Atlantis Helmet",
+      "advancements.test_1.title": "FireDimension",
+      "biome.dimencraft.glitchedbiome": "Glitchedbiome",
+      "entity.dimencraft.glitched_entity": "Glitched Entity",
+      "item.dimencraft.xanite_armor_boots": "Xanite Armor Boots",
+      "item.dimencraft.dimens_apple": "Dimens Apple",
+      "key.dimencraft.godmod": "Godmod",
+      "item.dimencraft.cheese": "Cheese",
+      "item.dimencraft.heal_stick": "Heal Stick",
+      "item.dimencraft.glitched_dimension_portal": "Glitched Dimension Igniter",
+      "block.dimencraft.portal_block": "Portal Block",
+      "block.dimencraft.dimens_ore": "Dimens Ore",
+      "block.dimencraft.xanite_ore": "Xanite Ore",
+      "item.dimencraft.fire_golem_spawn_egg": "Fire Golem Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dimencraft",
+    "modName": "DimenCraft V0.0.2 [Bêta]",
+    "version": "0.0.2",
+    "description": "Un mod rajoutant des dimensions, des items, des bosses et des Donjons",
+    "author": "DimenSquad",
+    "websiteURL": "https://dimencraft.jimdosite.com/",
+    "license": "DimenSquad | Tout droit réservé",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Crée grace a notre équipe !",
+    "modElementsPackage": "net.mcreator.dimencraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

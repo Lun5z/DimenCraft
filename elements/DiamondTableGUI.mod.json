@@ -1,0 +1,197 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 150,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 150,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_empty.png",
+          "use1Xscale": false,
+          "name": "progress_bar_empty.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay0"
+          },
+          "name": "progress_bar_filled_0.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay1"
+          },
+          "name": "progress_bar_filled_1.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay2"
+          },
+          "name": "progress_bar_filled_2.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay3"
+          },
+          "name": "progress_bar_filled_3.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay4"
+          },
+          "name": "progress_bar_filled_4.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay5"
+          },
+          "name": "progress_bar_filled_5.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay6"
+          },
+          "name": "progress_bar_filled_6.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay7"
+          },
+          "name": "progress_bar_filled_7.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay8"
+          },
+          "name": "progress_bar_filled_8.png",
+          "x": 187,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressBarDisplay9"
+          },
+          "name": "progress_bar_filled_9.png",
+          "x": 187,
+          "y": 75
+        }
+      }
+    ]
+  }
+}

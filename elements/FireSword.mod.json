@@ -1,0 +1,36 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "r",
+    "customModelName": "Normal",
+    "name": "Fire Sword",
+    "specialInfo": [
+      "Trés puissant !"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DimenBlock"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.3,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 1250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:FireIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "FireSwordItemIsCraftedsmelted"
+    }
+  }
+}

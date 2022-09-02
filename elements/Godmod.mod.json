@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "EQUALS",
+    "keyBindingName": "Godmod",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "GodmodOnKeyPressed"
+    }
+  }
+}

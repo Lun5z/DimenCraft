@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dimencraft:xanite_ingot"
+    },
+    "2": {
+      "item": "dimencraft:xanite_ingot"
+    },
+    "3": {
+      "item": "dimencraft:xanite_ingot"
+    },
+    "4": {
+      "item": "dimencraft:xanite_sliced"
+    },
+    "5": {
+      "item": "dimencraft:xanite_ingot"
+    },
+    "6": {
+      "item": "dimencraft:xanite_ingot"
+    },
+    "7": {
+      "item": "dimencraft:xanite_ingot"
+    },
+    "8": {
+      "item": "dimencraft:xanite_ingot"
+    }
+  },
+  "result": {
+    "item": "dimencraft:xanite_armor_chestplate",
+    "count": 1
+  }
+}

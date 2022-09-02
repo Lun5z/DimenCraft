@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dark_oak_log",
+        "1": "spruce_planks",
+        "2": "oak_planks",
+        "3": "chiseled_stone_bricks"
+      },
+      "name": "default"
+    }
+  }
+}

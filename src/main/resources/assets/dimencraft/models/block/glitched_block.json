@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dimencraft:blocks/r_5",
+    "up": "dimencraft:blocks/r_5",
+    "north": "dimencraft:blocks/r_5",
+    "east": "dimencraft:blocks/r_5",
+    "south": "dimencraft:blocks/r_5",
+    "west": "dimencraft:blocks/r_5",
+    "particle": "dimencraft:blocks/r_5"
+  }
+}

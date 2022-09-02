@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "cc": {
+      "map": {},
+      "name": "cc"
+    },
+    "default": {
+      "map": {},
+      "name": "default"
+    }
+  }
+}

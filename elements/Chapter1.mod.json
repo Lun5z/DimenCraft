@@ -1,0 +1,61 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 284,
+    "height": 177,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Welcome in my story i am Steve,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Welcome in my story i am Steve,",
+          "x": 80,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Everything started when I discovered this dimension",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Everything started when I discovered this dimension",
+          "x": 79,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "of Fire, ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "of Fire, ",
+          "x": 80,
+          "y": 65
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

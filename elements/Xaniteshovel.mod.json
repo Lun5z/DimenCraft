@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_shovel",
+    "customModelName": "Normal",
+    "name": "Xanite Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DimenBlock"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 7,
+    "efficiency": 15.0,
+    "attackSpeed": 1.75,
+    "enchantability": 25,
+    "damageVsEntity": 6.0,
+    "usageCount": 2600,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

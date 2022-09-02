@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_axe",
+    "customModelName": "Normal",
+    "name": "Xanite Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DimenBlock"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 7,
+    "efficiency": 15.0,
+    "attackSpeed": 1.2,
+    "enchantability": 25,
+    "damageVsEntity": 9.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

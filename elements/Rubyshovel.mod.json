@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "q",
+    "customModelName": "Normal",
+    "name": "Rubyshovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DimenBlock"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 9,
+    "efficiency": 20.0,
+    "attackSpeed": 2.0,
+    "enchantability": 30,
+    "damageVsEntity": 7.0,
+    "usageCount": 4000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

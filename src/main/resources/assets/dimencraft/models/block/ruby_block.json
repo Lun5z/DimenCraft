@@ -1,0 +1,12 @@
+{
+  "parent": "dimencraft:custom/totem",
+  "textures": {
+    "all": "dimencraft:blocks/cobblestone",
+    "particle": "dimencraft:blocks/cobblestone",
+    "0": "dimencraft:blocks/cobblestone1",
+    "3": "dimencraft:blocks/blackston",
+    "4": "dimencraft:blocks/blackstoe",
+    "5": "dimencraft:blocks/blackstone",
+    "6": "dimencraft:blocks/cobblestone"
+  }
+}
