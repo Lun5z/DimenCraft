@@ -495,70 +495,6 @@
       "registry_name": "glitched_ingot"
     },
     {
-      "name": "GodmodOnKeyPressed",
-      "type": "procedure",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godmod_on_key_pressed",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Godmod",
-      "type": "keybind",
-      "sortid": 74,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godmod"
-    },
-    {
-      "name": "GodmodoffOnKeyPressed",
-      "type": "procedure",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godmodoff_on_key_pressed",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Godmodoff",
-      "type": "keybind",
-      "sortid": 76,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godmodoff"
-    },
-    {
       "name": "Firetemple",
       "type": "structure",
       "sortid": 77,
@@ -1850,7 +1786,6 @@
       "item.dimencraft.fries": "Fries",
       "item.dimencraft.tenu_de_plonger_boots": "Atlantis Boots",
       "item.dimencraft.glitched_ingot": "Glitched Ingot",
-      "key.dimencraft.godmodoff": "Godmodoff",
       "item.dimencraft.dimens_ingot": "Dimens Ingot",
       "item.dimencraft.rubyaxxe": "Ruby Axe",
       "item.dimencraft.xanite_armor_leggings": "Xanite Armor Leggings",
@@ -1867,7 +1802,7 @@
       "item.dimencraft.xanite_armor_helmet": "Xanite Armor Helmet",
       "block.dimencraft.back_pack_blocklvl_3": "Back Pack Blocklvl 3",
       "item.dimencraft.atlantis_pickaxe": "Atlantis Pickaxe",
-      "item.dimencraft.tomate": "Tomate",
+      "item.dimencraft.tomate": "Tomato",
       "item.dimencraft.fire_sword": "Fire Sword",
       "block.dimencraft.glitched_block": "Glitched Block",
       "item.dimencraft.fire_ingot": "Fire Ingot",
@@ -1884,7 +1819,6 @@
       "entity.dimencraft.glitched_entity": "Glitched Entity",
       "item.dimencraft.xanite_armor_boots": "Xanite Armor Boots",
       "item.dimencraft.dimens_apple": "Dimens Apple",
-      "key.dimencraft.godmod": "Godmod",
       "item.dimencraft.cheese": "Cheese",
       "item.dimencraft.heal_stick": "Heal Stick",
       "item.dimencraft.glitched_dimension_portal": "Glitched Dimension Igniter",
@@ -1892,6 +1826,77 @@
       "block.dimencraft.dimens_ore": "Dimens Ore",
       "block.dimencraft.xanite_ore": "Xanite Ore",
       "item.dimencraft.fire_golem_spawn_egg": "Fire Golem Spawn Egg"
+    },
+    "fr_fr": {
+      "item.dimencraft.water_dimension": "Water Dimension Portal Igniter",
+      "itemGroup.tabdimenmod": "Dimens Mod",
+      "item.dimencraft.xaniteshovel": "Pelle Xanite ",
+      "item.dimencraft.back_packs": "Sac à dos",
+      "block.dimencraft.ruby_ore": "Minerais de Ruby",
+      "entity.dimencraft.fire_golem": "Golem de Feu",
+      "item.dimencraft.knife": "Couteau",
+      "item.dimencraft.ruby_armor_helmet": "Casque en Ruby",
+      "item.dimencraft.tomato_cutted": "Tomate coupée",
+      "item.dimencraft.atlantis_axe": "Hache en Atlantis",
+      "item.dimencraft.tenu_de_plonger_leggings": "Jambière en Atlantis ",
+      "block.dimencraft.xaniteblcok": "Block de Xanite",
+      "item.dimencraft.glitched_entity_spawn_egg": "Oeuf d\u0027apparition de l\u0027entité Buggé",
+      "block.dimencraft.decoupeur": "Découpeur",
+      "item.dimencraft.ruby_armor_chestplate": "Plastron en Ruby",
+      "item.dimencraft.xanitepickaxe": "Pioche en Xanite",
+      "item.dimencraft.xanite_armor_chestplate": "Plastron en Xanite ",
+      "item.dimencraft.rubypickaxe": "Pioche en Ruby ",
+      "item.dimencraft.back_pack_level_3": "Sac à dos (Niveaux 3)",
+      "item.dimencraft.atlantis_shovel": "Pelle en Atlantis",
+      "item.dimencraft.atlantis_hoe": "Houe en Atlantis",
+      "block.dimencraft.atlantis_ore": "Minerais en Atlantis ",
+      "item.dimencraft.back_pack_level_2": "Sac à dos (Niveau 2)",
+      "item.dimencraft.xaniteaxe": "Hache en Xanite ",
+      "item.dimencraft.the_adventure": "L\u0027aventure",
+      "item.dimencraft.ruby_armor_leggings": "Ruby Armor Leggings",
+      "item.dimencraft.fries": "Frites",
+      "item.dimencraft.tenu_de_plonger_boots": "Botte en Atlantis ",
+      "item.dimencraft.glitched_ingot": "L\u0027ingot buggé Glitched",
+      "item.dimencraft.dimens_ingot": "L\u0027ingot de Dimens",
+      "item.dimencraft.rubyaxxe": "Hache en Ruby ",
+      "item.dimencraft.xanite_armor_leggings": "Jambière en Xanite",
+      "advancements.test_1.descr": "Bienvenue dans les Flammes !",
+      "item.dimencraft.rubyshovel": "Pelle en Ruby",
+      "item.dimencraft.tenu_de_plonger_chestplate": "Plastron en Atlantis ",
+      "item.dimencraft.xanite_sliced": "Xanite lissé ",
+      "advancements.test_2.descr": "Bizarre ...",
+      "biome.dimencraft.waterbiome": "Waterbiome",
+      "item.dimencraft.xanite_ingot": "Lingot de Xanite",
+      "item.dimencraft.fire_dimension": "Fire Dimension Portal Igniter",
+      "item.dimencraft.ruby_armor_boots": "Bottes en Ruby",
+      "item.dimencraft.atlantis_ingot": "L\u0027ingot d\u0027Atlantis",
+      "item.dimencraft.xanite_armor_helmet": "Casque en Xanite",
+      "block.dimencraft.back_pack_blocklvl_3": "Back Pack Blocklvl 3",
+      "item.dimencraft.atlantis_pickaxe": "Pioche en Atlantis ",
+      "item.dimencraft.tomate": "Tomate",
+      "item.dimencraft.fire_sword": "Epée de Feu",
+      "block.dimencraft.glitched_block": "Block Buggé",
+      "item.dimencraft.fire_ingot": "L\u0027ingot de Feu",
+      "item.dimencraft.back_pack_upgrader": "Ameliorateur de Sac à dos",
+      "advancements.test_2.title": "Bizarre ...",
+      "item.dimencraft.xanite_sword": "Epée en Xanite",
+      "item.dimencraft.ruby": "Ruby",
+      "block.dimencraft.ruby_block": "Block de Ruby ",
+      "item.dimencraft.atlantis_sword": "Epée d\u0027Atlantis",
+      "biome.dimencraft.fire_biome": "Fire Biome",
+      "item.dimencraft.tenu_de_plonger_helmet": "Casque en Atlantis",
+      "advancements.test_1.title": "Dimensions de Feu",
+      "biome.dimencraft.glitchedbiome": "Glitchedbiome",
+      "entity.dimencraft.glitched_entity": "Glitched Entity",
+      "item.dimencraft.xanite_armor_boots": "Bottes en Xanite",
+      "item.dimencraft.dimens_apple": "Pomme de Dimmens",
+      "item.dimencraft.cheese": "Fromage",
+      "item.dimencraft.heal_stick": "Baton de Guerisson",
+      "item.dimencraft.glitched_dimension_portal": "Glitched Dimension Portal Igniter",
+      "block.dimencraft.portal_block": "Block de Portaille",
+      "block.dimencraft.dimens_ore": "Minerais de Dimens",
+      "block.dimencraft.xanite_ore": "Minerais de Xanite",
+      "item.dimencraft.fire_golem_spawn_egg": "Oeuf de Golem de Feu"
     }
   },
   "foldersRoot": {
@@ -1917,5 +1922,5 @@
     "modElementsPackage": "net.mcreator.dimencraft",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202200234517
 }
