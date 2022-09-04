@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dimencraft:blocks/caveblock",
+    "up": "dimencraft:blocks/caveblock",
+    "north": "dimencraft:blocks/caveblock",
+    "east": "dimencraft:blocks/caveblock",
+    "south": "dimencraft:blocks/caveblock",
+    "west": "dimencraft:blocks/caveblock",
+    "particle": "dimencraft:blocks/caveblock"
+  }
+}

@@ -1,6 +1,7 @@
 {
   "item.dimencraft.water_dimension": "Water Dimension Portal Igniter",
   "itemGroup.tabdimenmod": "Dimens Mod",
+  "block.dimencraft.solar_panel": "Solar Panel",
   "item.dimencraft.xaniteshovel": "Xanite Shovel",
   "item.dimencraft.back_packs": "Back Pack",
   "block.dimencraft.ruby_ore": "Ruby Ore",
@@ -14,6 +15,7 @@
   "item.dimencraft.glitched_entity_spawn_egg": "Glitched Entity Spawn Egg",
   "block.dimencraft.decoupeur": "Cutter",
   "item.dimencraft.ruby_armor_chestplate": "Ruby Armor Body",
+  "block.dimencraft.cave_block": "Cave Block",
   "item.dimencraft.xanitepickaxe": "Xania Pickaxe",
   "item.dimencraft.xanite_armor_chestplate": "Xanite Armor Body",
   "item.dimencraft.rubypickaxe": "Ruby Pickaxe",

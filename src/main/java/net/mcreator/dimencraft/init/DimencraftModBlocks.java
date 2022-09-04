@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.dimencraft.block.XaniteblcokBlock;
 import net.mcreator.dimencraft.block.XaniteOreBlock;
 import net.mcreator.dimencraft.block.WaterDimensionPortalBlock;
+import net.mcreator.dimencraft.block.SolarPanelBlock;
 import net.mcreator.dimencraft.block.RubyOreBlock;
 import net.mcreator.dimencraft.block.RubyBlockBlock;
 import net.mcreator.dimencraft.block.GlitchedDimensionPortalPortalBlock;
@@ -25,6 +26,7 @@ import net.mcreator.dimencraft.block.FireDimensionPortalBlock;
 import net.mcreator.dimencraft.block.DimensOreBlock;
 import net.mcreator.dimencraft.block.DimensBlockBlock;
 import net.mcreator.dimencraft.block.DecoupeurBlock;
+import net.mcreator.dimencraft.block.CaveBlockBlock;
 import net.mcreator.dimencraft.block.BackPackBlocklvl3Block;
 import net.mcreator.dimencraft.block.AtlantisOreBlock;
 import net.mcreator.dimencraft.DimencraftMod;
@@ -47,6 +49,8 @@ public class DimencraftModBlocks {
 	public static final RegistryObject<Block> WATER_DIMENSION_PORTAL = REGISTRY.register("water_dimension_portal",
 			() -> new WaterDimensionPortalBlock());
 	public static final RegistryObject<Block> ATLANTIS_ORE = REGISTRY.register("atlantis_ore", () -> new AtlantisOreBlock());
+	public static final RegistryObject<Block> CAVE_BLOCK = REGISTRY.register("cave_block", () -> new CaveBlockBlock());
+	public static final RegistryObject<Block> SOLAR_PANEL = REGISTRY.register("solar_panel", () -> new SolarPanelBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -57,6 +61,7 @@ public class DimencraftModBlocks {
 			DecoupeurBlock.registerRenderLayer();
 			BackPackBlocklvl3Block.registerRenderLayer();
 			XaniteblcokBlock.registerRenderLayer();
+			CaveBlockBlock.registerRenderLayer();
 		}
 	}
 }

@@ -1306,6 +1306,86 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tfrgynhui"
+    },
+    {
+      "name": "CaveBlock",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_block"
+    },
+    {
+      "name": "SolarPanelUpdateTick",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SolarPanelOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SolarPanel",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel"
     }
   ],
   "variable_elements": [
@@ -1759,6 +1839,7 @@
     "en_us": {
       "item.dimencraft.water_dimension": "Water Dimension Portal Igniter",
       "itemGroup.tabdimenmod": "Dimens Mod",
+      "block.dimencraft.solar_panel": "Solar Panel",
       "item.dimencraft.xaniteshovel": "Xanite Shovel",
       "item.dimencraft.back_packs": "Back Pack",
       "block.dimencraft.ruby_ore": "Ruby Ore",
@@ -1772,6 +1853,7 @@
       "item.dimencraft.glitched_entity_spawn_egg": "Glitched Entity Spawn Egg",
       "block.dimencraft.decoupeur": "Cutter",
       "item.dimencraft.ruby_armor_chestplate": "Ruby Armor Body",
+      "block.dimencraft.cave_block": "Cave Block",
       "item.dimencraft.xanitepickaxe": "Xania Pickaxe",
       "item.dimencraft.xanite_armor_chestplate": "Xanite Armor Body",
       "item.dimencraft.rubypickaxe": "Ruby Pickaxe",
@@ -1831,6 +1913,7 @@
       "item.dimencraft.water_dimension": "Water Dimension Portal Igniter",
       "itemGroup.tabdimenmod": "Dimens Mod",
       "item.dimencraft.xaniteshovel": "Pelle Xanite ",
+      "block.dimencraft.solar_panel": "Panneau Solaire",
       "item.dimencraft.back_packs": "Sac à dos",
       "block.dimencraft.ruby_ore": "Minerais de Ruby",
       "entity.dimencraft.fire_golem": "Golem de Feu",
@@ -1843,6 +1926,7 @@
       "item.dimencraft.glitched_entity_spawn_egg": "Oeuf d\u0027apparition de l\u0027entité Buggé",
       "block.dimencraft.decoupeur": "Découpeur",
       "item.dimencraft.ruby_armor_chestplate": "Plastron en Ruby",
+      "block.dimencraft.cave_block": "Cave Block",
       "item.dimencraft.xanitepickaxe": "Pioche en Xanite",
       "item.dimencraft.xanite_armor_chestplate": "Plastron en Xanite ",
       "item.dimencraft.rubypickaxe": "Pioche en Ruby ",

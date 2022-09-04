@@ -124,6 +124,8 @@ public class DimencraftModItems {
 	public static final RegistryObject<Item> ATLANTIS_INGOT = REGISTRY.register("atlantis_ingot", () -> new AtlantisIngotItem());
 	public static final RegistryObject<Item> THE_ADVENTURE = REGISTRY.register("the_adventure", () -> new TheAdventureItem());
 	public static final RegistryObject<Item> ATLANTIS_ORE = block(DimencraftModBlocks.ATLANTIS_ORE, DimencraftModTabs.TAB_DIMENMOD);
+	public static final RegistryObject<Item> CAVE_BLOCK = block(DimencraftModBlocks.CAVE_BLOCK, DimencraftModTabs.TAB_DIMENMOD);
+	public static final RegistryObject<Item> SOLAR_PANEL = block(DimencraftModBlocks.SOLAR_PANEL, DimencraftModTabs.TAB_DIMENMOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
