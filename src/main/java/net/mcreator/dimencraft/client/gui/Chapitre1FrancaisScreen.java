@@ -29,7 +29,7 @@ public class Chapitre1FrancaisScreen extends AbstractContainerScreen<Chapitre1Fr
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 284;
+		this.imageWidth = 286;
 		this.imageHeight = 103;
 	}
 
@@ -68,14 +68,14 @@ public class Chapitre1FrancaisScreen extends AbstractContainerScreen<Chapitre1Fr
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Bienvenue dans mon histoire mon nom est Steve,", 4, 8, -16777216);
-		this.font.draw(poseStack, "Tout a commencer quand j'ai decouvert la dimension", 4, 33, -16777216);
-		this.font.draw(poseStack, "de Feu, il y faisait tres chaud, j'y ai aussi ", 5, 45, -16777216);
-		this.font.draw(poseStack, "decouvert un nouveau minerais, le lingot de Feu.", 5, 55, -16777216);
-		this.font.draw(poseStack, "A l'origine je travaillais dans les mines, j'y ai ", 6, 65, -16777216);
+		this.font.draw(poseStack, "Bienvenue dans mon histoire mon nom est Steve,", 5, 8, -16777216);
+		this.font.draw(poseStack, "Tout a commencer quand j'ai decouvert la dimension", 5, 33, -16777216);
+		this.font.draw(poseStack, "de Feu, il y faisait tres chaud, j'y ai aussi ", 6, 45, -16777216);
+		this.font.draw(poseStack, "decouvert un nouveau minerais, le lingot de Feu.", 6, 55, -16777216);
+		this.font.draw(poseStack, "A l'origine je travaillais dans les mines, j'y ai ", 7, 65, -16777216);
 		this.font.draw(poseStack, "decouvert un minerais permettant de cr\u00E9e des ", 4, 75, -16777216);
-		this.font.draw(poseStack, "portails", 235, 75, -16777216);
-		this.font.draw(poseStack, "j'ai decouvert 10 dimensions...", 4, 86, -16777216);
+		this.font.draw(poseStack, "portails.", 5, 86, -16777216);
+		this.font.draw(poseStack, "", 5, 86, -16777216);
 	}
 
 	@Override

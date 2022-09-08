@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dimencraft:blocks/red_wool",
+    "up": "dimencraft:blocks/red_wool",
+    "north": "dimencraft:blocks/red_wool",
+    "east": "dimencraft:blocks/red_wool",
+    "south": "dimencraft:blocks/red_wool",
+    "west": "dimencraft:blocks/red_wool",
+    "particle": "dimencraft:blocks/red_wool"
+  }
+}

@@ -21,7 +21,10 @@ import net.mcreator.dimencraft.world.features.ores.XaniteOreFeature;
 import net.mcreator.dimencraft.world.features.ores.RubyOreFeature;
 import net.mcreator.dimencraft.world.features.ores.DimensOreFeature;
 import net.mcreator.dimencraft.world.features.ores.AtlantisOreFeature;
+import net.mcreator.dimencraft.world.features.WaterDonjonFeature;
+import net.mcreator.dimencraft.world.features.RuinedPortalFeature;
 import net.mcreator.dimencraft.world.features.MemorialFeature;
+import net.mcreator.dimencraft.world.features.GlitchedTempleFeature;
 import net.mcreator.dimencraft.world.features.FiretempleFeature;
 import net.mcreator.dimencraft.DimencraftMod;
 
@@ -46,6 +49,13 @@ public class DimencraftModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, AtlantisOreFeature.GENERATE_BIOMES, AtlantisOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> MEMORIAL = register("memorial", MemorialFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, MemorialFeature.GENERATE_BIOMES, MemorialFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> GLITCHED_TEMPLE = register("glitched_temple", GlitchedTempleFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.RAW_GENERATION, GlitchedTempleFeature.GENERATE_BIOMES,
+					GlitchedTempleFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> RUINED_PORTAL = register("ruined_portal", RuinedPortalFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.SURFACE_STRUCTURES, RuinedPortalFeature.GENERATE_BIOMES, RuinedPortalFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> WATER_DONJON = register("water_donjon", WaterDonjonFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.SURFACE_STRUCTURES, WaterDonjonFeature.GENERATE_BIOMES, WaterDonjonFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

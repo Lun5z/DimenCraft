@@ -6,9 +6,7 @@
     "texture": "r",
     "customModelName": "Normal",
     "name": "Fire Sword",
-    "specialInfo": [
-      "Trés puissant !"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:DimenBlock"
     },

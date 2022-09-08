@@ -24,19 +24,6 @@
         }
       },
       {
-        "type": "label",
-        "data": {
-          "text": "AG7_Silver7",
-          "color": {
-            "value": -5131855,
-            "falpha": 0.0
-          },
-          "name": "AG7_Silver7",
-          "x": 238,
-          "y": 42
-        }
-      },
-      {
         "type": "inputslot",
         "data": {
           "inputLimit": {

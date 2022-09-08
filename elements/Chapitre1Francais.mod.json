@@ -3,7 +3,7 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 284,
+    "width": 286,
     "height": 103,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
@@ -84,32 +84,32 @@
             "falpha": 0.0
           },
           "name": "decouvert un minerais permettant de crée des ",
+          "x": 75,
+          "y": 144
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "portails.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "portails.",
           "x": 76,
-          "y": 144
+          "y": 155
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "portails",
+          "text": "",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "portails",
-          "x": 307,
-          "y": 144
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "j'ai decouvert 10 dimensions...",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "j'ai decouvert 10 dimensions...",
+          "name": "",
           "x": 76,
           "y": 155
         }

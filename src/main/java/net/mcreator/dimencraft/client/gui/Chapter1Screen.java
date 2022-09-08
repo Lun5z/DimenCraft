@@ -30,7 +30,7 @@ public class Chapter1Screen extends AbstractContainerScreen<Chapter1Menu> {
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 284;
-		this.imageHeight = 177;
+		this.imageHeight = 99;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("dimencraft:textures/screens/chapter_1eng.png");
@@ -68,9 +68,12 @@ public class Chapter1Screen extends AbstractContainerScreen<Chapter1Menu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Welcome in my story i am Steve,", 8, 9, -16777216);
-		this.font.draw(poseStack, "Everything started when I discovered this dimension", 7, 21, -16777216);
-		this.font.draw(poseStack, "of Fire, ", 8, 33, -16777216);
+		this.font.draw(poseStack, "Welcome in my story i am Steve,", 5, 9, -16777216);
+		this.font.draw(poseStack, "Everything started when I discovered this dimension", 5, 37, -16777216);
+		this.font.draw(poseStack, "of Fire, it was very hot, I also discovered a new ", 5, 49, -16777216);
+		this.font.draw(poseStack, "mineral, the fire ingot. ", 5, 60, -16777216);
+		this.font.draw(poseStack, "Originally I was a minor I discovered an ore to ", 5, 72, -16777216);
+		this.font.draw(poseStack, "create portals.", 5, 82, -16777216);
 	}
 
 	@Override

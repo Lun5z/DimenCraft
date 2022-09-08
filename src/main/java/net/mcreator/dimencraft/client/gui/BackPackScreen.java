@@ -69,7 +69,6 @@ public class BackPackScreen extends AbstractContainerScreen<BackPackMenu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "BackPack", 6, 5, -16777216);
-		this.font.draw(poseStack, "AG7_Silver7", 114, 5, -5131855);
 	}
 
 	@Override

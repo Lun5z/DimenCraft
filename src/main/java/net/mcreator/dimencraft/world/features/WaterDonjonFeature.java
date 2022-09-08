@@ -18,21 +18,22 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
 import java.util.Set;
 import java.util.List;
 
-public class MemorialFeature extends Feature<NoneFeatureConfiguration> {
-	public static MemorialFeature FEATURE = null;
+public class WaterDonjonFeature extends Feature<NoneFeatureConfiguration> {
+	public static WaterDonjonFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<NoneFeatureConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new MemorialFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("dimencraft:memorial", FEATURE, FeatureConfiguration.NONE);
-		PLACED_FEATURE = PlacementUtils.register("dimencraft:memorial", CONFIGURED_FEATURE, List.of());
+		FEATURE = new WaterDonjonFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("dimencraft:water_donjon", FEATURE, FeatureConfiguration.NONE);
+		PLACED_FEATURE = PlacementUtils.register("dimencraft:water_donjon", CONFIGURED_FEATURE, List.of());
 		return FEATURE;
 	}
 
@@ -41,10 +42,11 @@ public class MemorialFeature extends Feature<NoneFeatureConfiguration> {
 	}
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set
+			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("dimencraft:water_dimension")));
 	private StructureTemplate template = null;
 
-	public MemorialFeature() {
+	public WaterDonjonFeature() {
 		super(NoneFeatureConfiguration.CODEC);
 	}
 
@@ -53,11 +55,11 @@ public class MemorialFeature extends Feature<NoneFeatureConfiguration> {
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("dimencraft", "memorial1"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("dimencraft", "weaterdonjon12"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 4974) {
+		if ((context.random().nextInt(1000000) + 1) <= 5000) {
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);

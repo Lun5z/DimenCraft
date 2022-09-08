@@ -1,17 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "2 "
+    " 1 ",
+    "345",
+    " 7 "
   ],
   "key": {
-    "0": {
+    "1": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "3": {
       "item": "dimencraft:glitched_ingot"
     },
-    "1": {
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
       "item": "dimencraft:fire_ingot"
     },
-    "2": {
+    "7": {
       "item": "minecraft:stick"
     }
   },

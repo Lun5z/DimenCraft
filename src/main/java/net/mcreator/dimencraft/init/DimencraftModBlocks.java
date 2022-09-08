@@ -20,6 +20,7 @@ import net.mcreator.dimencraft.block.WaterDimensionPortalBlock;
 import net.mcreator.dimencraft.block.SolarPanelBlock;
 import net.mcreator.dimencraft.block.RubyOreBlock;
 import net.mcreator.dimencraft.block.RubyBlockBlock;
+import net.mcreator.dimencraft.block.RedWoolTrapBlock;
 import net.mcreator.dimencraft.block.GlitchedDimensionPortalPortalBlock;
 import net.mcreator.dimencraft.block.GlitchedBlockBlock;
 import net.mcreator.dimencraft.block.FireDimensionPortalBlock;
@@ -51,6 +52,7 @@ public class DimencraftModBlocks {
 	public static final RegistryObject<Block> ATLANTIS_ORE = REGISTRY.register("atlantis_ore", () -> new AtlantisOreBlock());
 	public static final RegistryObject<Block> CAVE_BLOCK = REGISTRY.register("cave_block", () -> new CaveBlockBlock());
 	public static final RegistryObject<Block> SOLAR_PANEL = REGISTRY.register("solar_panel", () -> new SolarPanelBlock());
+	public static final RegistryObject<Block> RED_WOOL_TRAP = REGISTRY.register("red_wool_trap", () -> new RedWoolTrapBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

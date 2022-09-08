@@ -1386,6 +1386,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "solar_panel"
+    },
+    {
+      "name": "RedWoolTrap",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wool_trap"
+    },
+    {
+      "name": "GlitchedTemple",
+      "type": "structure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitched_temple"
+    },
+    {
+      "name": "RuinedPortal",
+      "type": "structure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruined_portal"
+    },
+    {
+      "name": "WaterDonjon",
+      "type": "structure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_donjon"
     }
   ],
   "variable_elements": [
@@ -1884,6 +1916,7 @@
       "item.dimencraft.xanite_armor_helmet": "Xanite Armor Helmet",
       "block.dimencraft.back_pack_blocklvl_3": "Back Pack Blocklvl 3",
       "item.dimencraft.atlantis_pickaxe": "Atlantis Pickaxe",
+      "block.dimencraft.red_wool_trap": "Red Wool Trap",
       "item.dimencraft.tomate": "Tomato",
       "item.dimencraft.fire_sword": "Fire Sword",
       "block.dimencraft.glitched_block": "Glitched Block",
@@ -1910,7 +1943,7 @@
       "item.dimencraft.fire_golem_spawn_egg": "Fire Golem Spawn Egg"
     },
     "fr_fr": {
-      "item.dimencraft.water_dimension": "Water Dimension Portal Igniter",
+      "item.dimencraft.water_dimension": "Activateur de la dimension de l\u0027eau",
       "itemGroup.tabdimenmod": "Dimens Mod",
       "item.dimencraft.xaniteshovel": "Pelle Xanite ",
       "block.dimencraft.solar_panel": "Panneau Solaire",
@@ -1951,12 +1984,13 @@
       "advancements.test_2.descr": "Ce Monde Parait Bizarre",
       "biome.dimencraft.waterbiome": "Waterbiome",
       "item.dimencraft.xanite_ingot": "Lingot de Xanite",
-      "item.dimencraft.fire_dimension": "Fire Dimension Portal Igniter",
+      "item.dimencraft.fire_dimension": "Activateur de la dimension du feu",
       "item.dimencraft.ruby_armor_boots": "Bottes en Ruby",
       "item.dimencraft.atlantis_ingot": "Lingot d\u0027Atlantis",
       "item.dimencraft.xanite_armor_helmet": "Casque en Xanite",
       "block.dimencraft.back_pack_blocklvl_3": "Back Pack Blocklvl 3",
       "item.dimencraft.atlantis_pickaxe": "Pioche en Atlantis ",
+      "block.dimencraft.red_wool_trap": "Red Wool Trap",
       "item.dimencraft.tomate": "Tomate",
       "item.dimencraft.fire_sword": "Epée de Feu",
       "block.dimencraft.glitched_block": "Block Buggé",
@@ -1976,7 +2010,7 @@
       "item.dimencraft.dimens_apple": "Pomme de Dimmens",
       "item.dimencraft.cheese": "Fromage",
       "item.dimencraft.heal_stick": "Baton de Guerisson",
-      "item.dimencraft.glitched_dimension_portal": "Glitched Dimension Portal Igniter",
+      "item.dimencraft.glitched_dimension_portal": "Activateur de la dimension buggée",
       "block.dimencraft.portal_block": "Block de Portaille",
       "block.dimencraft.dimens_ore": "Minerais de Dimens",
       "block.dimencraft.xanite_ore": "Minerais de Xanite",

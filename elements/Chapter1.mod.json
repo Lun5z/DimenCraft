@@ -4,7 +4,7 @@
   "definition": {
     "type": 0,
     "width": 284,
-    "height": 177,
+    "height": 99,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -19,8 +19,8 @@
             "falpha": 0.0
           },
           "name": "Welcome in my story i am Steve,",
-          "x": 80,
-          "y": 41
+          "x": 77,
+          "y": 80
         }
       },
       {
@@ -32,21 +32,60 @@
             "falpha": 0.0
           },
           "name": "Everything started when I discovered this dimension",
-          "x": 79,
-          "y": 53
+          "x": 77,
+          "y": 108
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "of Fire, ",
+          "text": "of Fire, it was very hot, I also discovered a new ",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "of Fire, ",
-          "x": 80,
-          "y": 65
+          "name": "of Fire, it was very hot, I also discovered a new ",
+          "x": 77,
+          "y": 120
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "mineral, the fire ingot. ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "mineral, the fire ingot. ",
+          "x": 77,
+          "y": 131
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Originally I was a minor I discovered an ore to ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Originally I was a minor I discovered an ore to ",
+          "x": 77,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "create portals.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "create portals.",
+          "x": 77,
+          "y": 153
         }
       }
     ],
