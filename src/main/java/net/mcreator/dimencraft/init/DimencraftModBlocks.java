@@ -60,6 +60,7 @@ public class DimencraftModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			RubyOreBlock.registerRenderLayer();
 			RubyBlockBlock.registerRenderLayer();
+			GlitchedBlockBlock.registerRenderLayer();
 			DecoupeurBlock.registerRenderLayer();
 			BackPackBlocklvl3Block.registerRenderLayer();
 			XaniteblcokBlock.registerRenderLayer();

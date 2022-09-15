@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "totem",
+        "1": "totem1",
+        "2": "texture3",
+        "3": "texture4",
+        "4": "texture5",
+        "5": "texture6",
+        "6": "texture7"
+      },
+      "name": "default"
+    }
+  }
+}

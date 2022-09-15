@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -37,8 +37,8 @@
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
-    "hasGravity": true,
-    "isWaterloggable": false,
+    "hasGravity": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "CUSTOM:DimenBlock"
     },
@@ -52,7 +52,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },

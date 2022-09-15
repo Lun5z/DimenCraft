@@ -2019,7 +2019,28 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Glitched Dimensions",
+        "children": []
+      },
+      {
+        "name": "Fire Dimensions",
+        "children": []
+      },
+      {
+        "name": "Water Dimensions",
+        "children": []
+      },
+      {
+        "name": "Dimens Stuff",
+        "children": []
+      },
+      {
+        "name": "Other",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "dimencraft",
