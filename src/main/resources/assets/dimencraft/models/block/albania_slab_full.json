@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "dimencraft:blocks/albania_planks",
+    "top": "dimencraft:blocks/albania_planks",
+    "side": "dimencraft:blocks/albania_planks"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dimencraft:albania_log"
+    },
+    "1": {
+      "item": "dimencraft:albania_log"
+    },
+    "2": {
+      "item": "dimencraft:albania_log"
+    },
+    "3": {
+      "item": "dimencraft:albania_log"
+    }
+  },
+  "result": {
+    "item": "dimencraft:albania_wood",
+    "count": 3
+  }
+}

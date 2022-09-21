@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "dimencraft:albania_planks"
+    },
+    "1": {
+      "item": "dimencraft:albania_planks"
+    },
+    "2": {
+      "item": "dimencraft:albania_planks"
+    }
+  },
+  "result": {
+    "item": "dimencraft:albania_slab",
+    "count": 6
+  }
+}

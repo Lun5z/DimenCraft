@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dimencraft:albania_planks"
+    }
+  ],
+  "result": {
+    "item": "dimencraft:albania_button",
+    "count": 1
+  }
+}

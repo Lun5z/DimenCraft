@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "dimencraft:block/albania_pressure_plate"
+    },
+    "powered=true": {
+      "model": "dimencraft:block/albania_pressure_plate_down"
+    }
+  }
+}

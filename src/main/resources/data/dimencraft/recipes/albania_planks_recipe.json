@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:albania_log"
+    }
+  ],
+  "result": {
+    "item": "dimencraft:albania_planks",
+    "count": 4
+  }
+}

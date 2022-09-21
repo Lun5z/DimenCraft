@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dimencraft:albania_planks"
+    },
+    "3": {
+      "item": "dimencraft:albania_planks"
+    },
+    "4": {
+      "item": "dimencraft:albania_planks"
+    },
+    "6": {
+      "item": "dimencraft:albania_planks"
+    },
+    "7": {
+      "item": "dimencraft:albania_planks"
+    },
+    "8": {
+      "item": "dimencraft:albania_planks"
+    }
+  },
+  "result": {
+    "item": "dimencraft:albania_stairs",
+    "count": 4
+  }
+}

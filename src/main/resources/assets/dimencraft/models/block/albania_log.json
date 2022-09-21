@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dimencraft:blocks/albania_log_top",
+    "up": "dimencraft:blocks/albania_log_top",
+    "north": "dimencraft:blocks/albania_log_side",
+    "east": "dimencraft:blocks/albania_log_side",
+    "south": "dimencraft:blocks/albania_log_side",
+    "west": "dimencraft:blocks/albania_log_side",
+    "particle": "dimencraft:blocks/albania_log_top"
+  }
+}

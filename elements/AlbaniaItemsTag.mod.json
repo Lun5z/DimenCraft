@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:AlbaniaWood"
+      },
+      {
+        "value": "CUSTOM:AlbaniaLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "albania_log",
+    "namespace": "forge"
+  }
+}

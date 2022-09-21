@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dimencraft:block/albania_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dimencraft:block/albania_wood"
+    },
+    "axis=z": {
+      "model": "dimencraft:block/albania_wood",
+      "x": 90
+    }
+  }
+}

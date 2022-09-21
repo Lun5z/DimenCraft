@@ -11,7 +11,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.dimencraft.block.entity.SolarPanelBlockEntity;
 import net.mcreator.dimencraft.block.entity.DecoupeurBlockEntity;
 import net.mcreator.dimencraft.block.entity.BackPackBlocklvl3BlockEntity;
 import net.mcreator.dimencraft.DimencraftMod;
@@ -22,8 +21,6 @@ public class DimencraftModBlockEntities {
 			DecoupeurBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> BACK_PACK_BLOCKLVL_3 = register("back_pack_blocklvl_3",
 			DimencraftModBlocks.BACK_PACK_BLOCKLVL_3, BackPackBlocklvl3BlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> SOLAR_PANEL = register("solar_panel", DimencraftModBlocks.SOLAR_PANEL,
-			SolarPanelBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dimencraft:blocks/albania_planks",
+    "particle": "dimencraft:blocks/albania_planks"
+  }
+}

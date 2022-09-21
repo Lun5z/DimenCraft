@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "dimencraft:blocks/albania_planks",
+    "particle": "dimencraft:blocks/albania_planks"
+  }
+}

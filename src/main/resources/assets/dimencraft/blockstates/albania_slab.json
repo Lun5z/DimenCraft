@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dimencraft:block/albania_slab"
+    },
+    "type=top": {
+      "model": "dimencraft:block/albania_slab_top"
+    },
+    "type=double": {
+      "model": "dimencraft:block/albania_slab_full"
+    }
+  }
+}

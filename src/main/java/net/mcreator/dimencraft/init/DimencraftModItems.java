@@ -125,8 +125,17 @@ public class DimencraftModItems {
 	public static final RegistryObject<Item> THE_ADVENTURE = REGISTRY.register("the_adventure", () -> new TheAdventureItem());
 	public static final RegistryObject<Item> ATLANTIS_ORE = block(DimencraftModBlocks.ATLANTIS_ORE, DimencraftModTabs.TAB_DIMENMOD);
 	public static final RegistryObject<Item> CAVE_BLOCK = block(DimencraftModBlocks.CAVE_BLOCK, DimencraftModTabs.TAB_DIMENMOD);
-	public static final RegistryObject<Item> SOLAR_PANEL = block(DimencraftModBlocks.SOLAR_PANEL, DimencraftModTabs.TAB_DIMENMOD);
 	public static final RegistryObject<Item> RED_WOOL_TRAP = block(DimencraftModBlocks.RED_WOOL_TRAP, DimencraftModTabs.TAB_DIMENMOD);
+	public static final RegistryObject<Item> ALBANIA_WOOD = block(DimencraftModBlocks.ALBANIA_WOOD, DimencraftModTabs.TAB_DIMENMOD);
+	public static final RegistryObject<Item> ALBANIA_LOG = block(DimencraftModBlocks.ALBANIA_LOG, DimencraftModTabs.TAB_DIMENMOD);
+	public static final RegistryObject<Item> ALBANIA_PLANKS = block(DimencraftModBlocks.ALBANIA_PLANKS, DimencraftModTabs.TAB_DIMENMOD);
+	public static final RegistryObject<Item> ALBANIA_LEAVES = block(DimencraftModBlocks.ALBANIA_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ALBANIA_STAIRS = block(DimencraftModBlocks.ALBANIA_STAIRS, DimencraftModTabs.TAB_DIMENMOD);
+	public static final RegistryObject<Item> ALBANIA_SLAB = block(DimencraftModBlocks.ALBANIA_SLAB, DimencraftModTabs.TAB_DIMENMOD);
+	public static final RegistryObject<Item> ALBANIA_FENCE = block(DimencraftModBlocks.ALBANIA_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ALBANIA_FENCE_GATE = block(DimencraftModBlocks.ALBANIA_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> ALBANIA_PRESSURE_PLATE = block(DimencraftModBlocks.ALBANIA_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> ALBANIA_BUTTON = block(DimencraftModBlocks.ALBANIA_BUTTON, DimencraftModTabs.TAB_DIMENMOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dimencraft:blocks/albania_log_side",
+    "particle": "dimencraft:blocks/albania_log_side"
+  }
+}

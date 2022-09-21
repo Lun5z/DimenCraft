@@ -17,7 +17,6 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.dimencraft.block.XaniteblcokBlock;
 import net.mcreator.dimencraft.block.XaniteOreBlock;
 import net.mcreator.dimencraft.block.WaterDimensionPortalBlock;
-import net.mcreator.dimencraft.block.SolarPanelBlock;
 import net.mcreator.dimencraft.block.RubyOreBlock;
 import net.mcreator.dimencraft.block.RubyBlockBlock;
 import net.mcreator.dimencraft.block.RedWoolTrapBlock;
@@ -30,6 +29,16 @@ import net.mcreator.dimencraft.block.DecoupeurBlock;
 import net.mcreator.dimencraft.block.CaveBlockBlock;
 import net.mcreator.dimencraft.block.BackPackBlocklvl3Block;
 import net.mcreator.dimencraft.block.AtlantisOreBlock;
+import net.mcreator.dimencraft.block.AlbaniaWoodBlock;
+import net.mcreator.dimencraft.block.AlbaniaStairsBlock;
+import net.mcreator.dimencraft.block.AlbaniaSlabBlock;
+import net.mcreator.dimencraft.block.AlbaniaPressurePlateBlock;
+import net.mcreator.dimencraft.block.AlbaniaPlanksBlock;
+import net.mcreator.dimencraft.block.AlbaniaLogBlock;
+import net.mcreator.dimencraft.block.AlbaniaLeavesBlock;
+import net.mcreator.dimencraft.block.AlbaniaFenceGateBlock;
+import net.mcreator.dimencraft.block.AlbaniaFenceBlock;
+import net.mcreator.dimencraft.block.AlbaniaButtonBlock;
 import net.mcreator.dimencraft.DimencraftMod;
 
 public class DimencraftModBlocks {
@@ -51,8 +60,18 @@ public class DimencraftModBlocks {
 			() -> new WaterDimensionPortalBlock());
 	public static final RegistryObject<Block> ATLANTIS_ORE = REGISTRY.register("atlantis_ore", () -> new AtlantisOreBlock());
 	public static final RegistryObject<Block> CAVE_BLOCK = REGISTRY.register("cave_block", () -> new CaveBlockBlock());
-	public static final RegistryObject<Block> SOLAR_PANEL = REGISTRY.register("solar_panel", () -> new SolarPanelBlock());
 	public static final RegistryObject<Block> RED_WOOL_TRAP = REGISTRY.register("red_wool_trap", () -> new RedWoolTrapBlock());
+	public static final RegistryObject<Block> ALBANIA_WOOD = REGISTRY.register("albania_wood", () -> new AlbaniaWoodBlock());
+	public static final RegistryObject<Block> ALBANIA_LOG = REGISTRY.register("albania_log", () -> new AlbaniaLogBlock());
+	public static final RegistryObject<Block> ALBANIA_PLANKS = REGISTRY.register("albania_planks", () -> new AlbaniaPlanksBlock());
+	public static final RegistryObject<Block> ALBANIA_LEAVES = REGISTRY.register("albania_leaves", () -> new AlbaniaLeavesBlock());
+	public static final RegistryObject<Block> ALBANIA_STAIRS = REGISTRY.register("albania_stairs", () -> new AlbaniaStairsBlock());
+	public static final RegistryObject<Block> ALBANIA_SLAB = REGISTRY.register("albania_slab", () -> new AlbaniaSlabBlock());
+	public static final RegistryObject<Block> ALBANIA_FENCE = REGISTRY.register("albania_fence", () -> new AlbaniaFenceBlock());
+	public static final RegistryObject<Block> ALBANIA_FENCE_GATE = REGISTRY.register("albania_fence_gate", () -> new AlbaniaFenceGateBlock());
+	public static final RegistryObject<Block> ALBANIA_PRESSURE_PLATE = REGISTRY.register("albania_pressure_plate",
+			() -> new AlbaniaPressurePlateBlock());
+	public static final RegistryObject<Block> ALBANIA_BUTTON = REGISTRY.register("albania_button", () -> new AlbaniaButtonBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

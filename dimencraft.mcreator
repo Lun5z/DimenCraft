@@ -1380,14 +1380,6 @@
       }
     },
     {
-      "name": "SolarPanel",
-      "type": "block",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "solar_panel"
-    },
-    {
       "name": "RedWoolTrap",
       "type": "block",
       "sortid": 144,
@@ -1418,6 +1410,174 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_donjon"
+    },
+    {
+      "name": "Caveblockcraft",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caveblockcraft"
+    },
+    {
+      "name": "AlbaniaWood",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_wood"
+    },
+    {
+      "name": "AlbaniaLog",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_log"
+    },
+    {
+      "name": "AlbaniaPlanks",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_planks"
+    },
+    {
+      "name": "AlbaniaLeaves",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_leaves"
+    },
+    {
+      "name": "AlbaniaStairs",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_stairs"
+    },
+    {
+      "name": "AlbaniaSlab",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_slab"
+    },
+    {
+      "name": "AlbaniaFence",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_fence"
+    },
+    {
+      "name": "AlbaniaFenceGate",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_fence_gate"
+    },
+    {
+      "name": "AlbaniaPressurePlate",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_pressure_plate"
+    },
+    {
+      "name": "AlbaniaButton",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_button"
+    },
+    {
+      "name": "AlbaniaItemsTag",
+      "type": "tag",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_items_tag"
+    },
+    {
+      "name": "AlbaniaWoodRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_wood_recipe"
+    },
+    {
+      "name": "AlbaniaPlanksRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_planks_recipe"
+    },
+    {
+      "name": "AlbaniaStairsRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_stairs_recipe"
+    },
+    {
+      "name": "AlbaniaSlabRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_slab_recipe"
+    },
+    {
+      "name": "AlbaniaFenceRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_fence_recipe"
+    },
+    {
+      "name": "AlbaniaFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_fence_gate_recipe"
+    },
+    {
+      "name": "AlbaniaPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_pressure_plate_recipe"
+    },
+    {
+      "name": "AlbaniaButtonRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_button_recipe"
+    },
+    {
+      "name": "AlbaniaStickRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albania_stick_recipe"
     }
   ],
   "variable_elements": [
@@ -1872,7 +2032,7 @@
       "item.dimencraft.water_dimension": "Water Dimension Portal Igniter",
       "itemGroup.tabdimenmod": "Dimens Mod",
       "item.dimencraft.xaniteshovel": "Xanite Shovel",
-      "block.dimencraft.solar_panel": "Solar Panel",
+      "block.dimencraft.albania_slab": "Albania Slab",
       "item.dimencraft.back_packs": "Back Pack",
       "block.dimencraft.ruby_ore": "Ruby Ore",
       "entity.dimencraft.fire_golem": "Fire Golem",
@@ -1900,9 +2060,11 @@
       "item.dimencraft.fries": "Fries",
       "item.dimencraft.tenu_de_plonger_boots": "Atlantis Boots",
       "item.dimencraft.glitched_ingot": "Glitched Ingot",
+      "block.dimencraft.albania_wood": "Albania Wood",
       "item.dimencraft.dimens_ingot": "Dimens Ingot",
       "item.dimencraft.rubyaxxe": "Ruby Axe",
       "item.dimencraft.xanite_armor_leggings": "Xanite Armor Leggings",
+      "block.dimencraft.albania_fence_gate": "Albania Fence Gate",
       "advancements.test_1.descr": "Welcome in the Fire !",
       "item.dimencraft.rubyshovel": "Rubyshovel",
       "item.dimencraft.tenu_de_plonger_chestplate": "Atlantis Body",
@@ -1924,6 +2086,7 @@
       "item.dimencraft.back_pack_upgrader": "Back Pack Upgrader",
       "advancements.test_2.title": "Weird",
       "item.dimencraft.xanite_sword": "Xanite Sword",
+      "block.dimencraft.albania_fence": "Albania Fence",
       "item.dimencraft.ruby": "Ruby",
       "block.dimencraft.ruby_block": "Ruby Block",
       "item.dimencraft.atlantis_sword": "Atlantis Sword",
@@ -1934,7 +2097,13 @@
       "entity.dimencraft.glitched_entity": "Glitched Entity",
       "item.dimencraft.xanite_armor_boots": "Xanite Armor Boots",
       "item.dimencraft.dimens_apple": "Dimens Apple",
+      "block.dimencraft.albania_pressure_plate": "Albania Pressure Plate",
+      "block.dimencraft.albania_log": "Albania Log",
+      "block.dimencraft.albania_planks": "Albania Planks",
+      "block.dimencraft.albania_leaves": "Albania Leaves",
       "item.dimencraft.cheese": "Cheese",
+      "block.dimencraft.albania_button": "Albania Button",
+      "block.dimencraft.albania_stairs": "Albania Stairs",
       "item.dimencraft.heal_stick": "Heal Stick",
       "item.dimencraft.glitched_dimension_portal": "Glitched Dimension Igniter",
       "block.dimencraft.portal_block": "Portal Block",
@@ -1945,8 +2114,8 @@
     "fr_fr": {
       "item.dimencraft.water_dimension": "Activateur de la dimension de l\u0027eau",
       "itemGroup.tabdimenmod": "Dimens Mod",
-      "block.dimencraft.solar_panel": "Panneau Solaire",
       "item.dimencraft.xaniteshovel": "Pelle Xanite ",
+      "block.dimencraft.albania_slab": "Albania Slab",
       "item.dimencraft.back_packs": "Sac à dos",
       "block.dimencraft.ruby_ore": "Minerais de Ruby",
       "entity.dimencraft.fire_golem": "Golem de Feu",
@@ -1974,9 +2143,11 @@
       "item.dimencraft.fries": "Frites",
       "item.dimencraft.tenu_de_plonger_boots": "Botte en Atlantis ",
       "item.dimencraft.glitched_ingot": "Lingot buggé ",
+      "block.dimencraft.albania_wood": "Albania Wood",
       "item.dimencraft.dimens_ingot": "Lingot de Dimens",
       "item.dimencraft.rubyaxxe": "Hache en Ruby ",
       "item.dimencraft.xanite_armor_leggings": "Jambière en Xanite",
+      "block.dimencraft.albania_fence_gate": "Albania Fence Gate",
       "advancements.test_1.descr": "Bienvenue dans les Flammes !",
       "item.dimencraft.rubyshovel": "Pelle en Ruby",
       "item.dimencraft.tenu_de_plonger_chestplate": "Plastron en Atlantis ",
@@ -1998,6 +2169,7 @@
       "item.dimencraft.back_pack_upgrader": "Ameliorateur de Sac à dos",
       "advancements.test_2.title": "Bizarre ...",
       "item.dimencraft.xanite_sword": "Epée en Xanite",
+      "block.dimencraft.albania_fence": "Albania Fence",
       "item.dimencraft.ruby": "Ruby",
       "block.dimencraft.ruby_block": "Block de Ruby ",
       "item.dimencraft.atlantis_sword": "Epée d\u0027Atlantis",
@@ -2008,7 +2180,13 @@
       "entity.dimencraft.glitched_entity": "Entité Buggé",
       "item.dimencraft.xanite_armor_boots": "Bottes en Xanite",
       "item.dimencraft.dimens_apple": "Pomme de Dimmens",
+      "block.dimencraft.albania_pressure_plate": "Albania Pressure Plate",
+      "block.dimencraft.albania_log": "Albania Log",
+      "block.dimencraft.albania_planks": "Albania Planks",
+      "block.dimencraft.albania_leaves": "Albania Leaves",
       "item.dimencraft.cheese": "Fromage",
+      "block.dimencraft.albania_button": "Albania Button",
+      "block.dimencraft.albania_stairs": "Albania Stairs",
       "item.dimencraft.heal_stick": "Baton de Guerisson",
       "item.dimencraft.glitched_dimension_portal": "Activateur de la dimension buggée",
       "block.dimencraft.portal_block": "Block de Portaille",
@@ -2019,28 +2197,7 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": [
-      {
-        "name": "Glitched Dimensions",
-        "children": []
-      },
-      {
-        "name": "Fire Dimensions",
-        "children": []
-      },
-      {
-        "name": "Water Dimensions",
-        "children": []
-      },
-      {
-        "name": "Dimens Stuff",
-        "children": []
-      },
-      {
-        "name": "Other",
-        "children": []
-      }
-    ]
+    "children": []
   },
   "workspaceSettings": {
     "modid": "dimencraft",
